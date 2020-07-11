@@ -1,0 +1,8 @@
+.landing-page {
+  .section:first-child {
+    background-image: url('assets/images/doctor.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh / 2);
+  }
+}

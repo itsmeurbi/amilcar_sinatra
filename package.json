@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "webpack --config webpack.config.js",
-    "dev": "webpack-dev-server --history-api-fallback --inline --progress --config webpack.config.js"
+    "dev": "node_modules/.bin/webpack-dev-server"
   },
   "private": true,
   "name": "amilcarpage",
@@ -9,17 +9,21 @@
   "main": "index.js",
   "author": "Miguel Urbina <miguel.urbina15.1997@gmail.com>",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "bulma": "^0.8.2",
     "webpack": "^4.43.0"
   },
   "devDependencies": {
     "css-loader": "^3.5.3",
     "eslint": "^7.1.0",
+    "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.3.0",
+    "node-sass": "^4.14.1",
     "sass": "^1.26.8",
     "sass-lint": "^1.13.1",
     "sass-loader": "^8.0.2",
     "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0"
   }
