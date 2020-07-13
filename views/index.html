@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,31 +21,33 @@
       </div>
     </div>
   </section>
-  <div class="section is mobile my-6">
-      <div class="columns">
-        <div class="column is-full">
-          <div class="info-section">
-            <h2>Dr. Amílcar Sánchez y Sánchez</h2>
-            <h3>Deje su salud en manos de un profesional</h3>
-            <p class="has-text-justified">
-              El Dr. Amílcar Sánchez y Sánchez es especialista en algología y medicina del dolor. <br>
-              Ofrece tratamientos farmacológicos y/o intervencionistas. Atiende desde dolores comunes, 
-              hasta pacientes con enfermedades crónico degenerativas, avanzadas y terminales. Su principal 
-              objetivo es atender y aliviar su dolor con un adecuado manejo, así como total control de los 
-              síntomas que conlleva su enfermedad. Ofrece un trato digno, confiable y de calidad, aplicando 
-              a las últimas técnicas, diagnósticos y terapias.
-            </p>
-            <a href="#contact-me-section" class="button is-link is-outlined is-size-5">Agendar una cita</a>
-          </div>
+  <div class="section my-6">
+    <div class="columns">
+      <div class="column is-full">
+        <div class="info-section">
+          <h2>Dr. Amílcar Sánchez y Sánchez</h2>
+          <h3>Deje su salud en manos de un profesional</h3>
+          <p class="has-text-justified">
+            El Dr. Amílcar Sánchez y Sánchez es especialista en algología y medicina del dolor. <br>
+            Ofrece tratamientos farmacológicos y/o intervencionistas. Atiende desde dolores comunes, 
+            hasta pacientes con enfermedades crónico degenerativas, avanzadas y terminales. Su principal 
+            objetivo es atender y aliviar su dolor con un adecuado manejo, así como total control de los 
+            síntomas que conlleva su enfermedad. Ofrece un trato digno, confiable y de calidad, aplicando 
+            a las últimas técnicas, diagnósticos y terapias.
+          </p>
+          <a href="#contact-me-section" class="button is-link is-outlined is-size-5">Agendar una cita</a>
         </div>
       </div>
-      <div>
-        <div class="specialties_title has-text-centered">
-          <div class="section_title">
-            <h3>Especialidades</h3>
-          </div>
-        </div>  
-      <div class="columns is-size-5">
+    </div>
+  </div>
+  <section class="section">
+    <div>
+      <div class="specialties_title has-text-centered is-flex-wrap">
+        <div class="section_title">
+          <h3>Especialidades</h3>
+        </div>
+      </div>  
+      <div class="columns is-flex-wrap has-text-justify">
         <div class="column">
           <ul>
             <li><span class="icon has-text-info"><i class="fa fa-check"></i></span>Problemas de dolor</li>
@@ -61,7 +63,7 @@
             <li><span class="icon has-text-info"><i class="fa fa-check"></i></span>Dolor pélvico</li>
           </ul>
         </div>
-        <div class="column ">
+        <div class="column">
           <ul>
             <li><span class="icon has-text-info"><i class="fa fa-check"></i></span>Fracturas</li>
             <li><span class="icon has-text-info"><i class="fa fa-check"></i></span>Columna cervical</li>
@@ -86,7 +88,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
   <section>
     <div class="level">
       <div class="level-item has-text-centered">
@@ -96,18 +98,18 @@
       </div>
     </div>
     <div class="columns is-gapless">
-      <div class="column is-4">
+      <div class="column">
         <img src="../public/assets/img/galeria-1.jpg" alt="">
       </div>
-      <div class="column is-4">
+      <div class="column">
         <img src="../public/assets/img/galeria-2.jpg" alt="">
       </div>
-      <div class="column is-4">
+      <div class="column">
         <img src="../public/assets/img/galeria-3.jpg" alt="">
       </div>
     </div>
   </section>
-  <section class="is-mobile mt-6" id="contact-me-section">
+  <section class="mt-6" id="contact-me-section">
     <div class="level">
       <div class="level-item has-text-centered">
         <div class="section_title">
@@ -115,37 +117,27 @@
         </div>
       </div>
     </div>
-    <div class="columns">
-      <div class="column contact-form">
-        <article class="message is-info is-small is-hidden" id="contact-form-message">
-          <div class="message-header">
-            <p>Información</p>
-            <button class="delete" aria-label="delete"></button>
-          </div>
-          <div class="message-body">
-            Por favor verifique que su teléfono o email esté correcto.
-          </div>
-        </article>
-        <form action="" id="contact-form">
+    <div class="columns is-desktop is-gapless">
+      <div class="column is-half-desktop is-full-mobile">
+        <form action="">
           <div class="field">
-            <label class="label is-size-5">Nombre</label>
+            <label class="label">Nombre</label>
             <div class="control">
               <input name="name" id="name" class="input" type="text" placeholder="Nombre">
             </div>
           </div>
-          <div class="columns">
-            <div class="column">
+          <div class="columns is-mobile">
+            <div class="column is-6">
               <div class="field">
-                <label class="label is-size-5" for="e-mail">Correo eletrónico</label>
+                <label class="label" for="e-mail">Correo eletrónico</label>
                 <div class="control">
                   <input name="e-mail" id="e-mail" class="input" type="e-mail" placeholder="Correo">
                 </div>
               </div>
-              <p class="help is-danger is-hidden" id="invalid-mail-message">Este correo es invalido.</p>
             </div>
-            <div class="column">
+            <div class="column is-6">
               <div class="field">
-                <label class="label is-size-5" for="">Teléfono</label>
+                <label class="label" for="">Teléfono</label>
                 <div class="control">
                   <input name="phone" id="phone" class="input" type="tel" maxlength="10" placeholder="Teléfono">
                 </div>
@@ -165,7 +157,7 @@
           </div>
         </form>
       </div>
-      <div class="column">
+      <div class="column is-half-desktop is-full-mobile">
         <div class="contact-info">
           <div class="contact-info-items">
             <div class="is-item-contact">
@@ -209,7 +201,6 @@
       </div>
     </footer>
 </body>
-<script src="assets/js/index.js"></script>
   <script>
       document.getElementById("year").innerHTML = new Date().getFullYear();
   </script>
