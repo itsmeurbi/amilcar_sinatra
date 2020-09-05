@@ -1,18 +1,9 @@
 nav.navbar {
   align-items: center;
-  background-color: $helper-blue;
   display: flex;
   justify-content: space-between;
   height: $header-size;
   position: fixed;
   top: 0;
   width: 100%;
-
-  @media (max-width: 769px) {
-    height: $header-size-mobile;
-  }
-}
-
-body {
-  background-color: helper-blue;
 }
