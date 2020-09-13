@@ -1,9 +1,8 @@
 body {
   padding-top: $header-size;
-
-  @media (max-width: 769px) {
-    padding-top: $header-size-mobile;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 html,
