@@ -1,9 +1,11 @@
 nav.navbar {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
   height: $header-size;
   position: fixed;
   top: 0;
   width: 100%;
+
+  .navbar-brand,
+  .navbar-burger {
+    height: 100%;
+  }
 }
