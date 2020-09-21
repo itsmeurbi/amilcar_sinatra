@@ -1,4 +1,4 @@
-import '../stylesheet/aplication.scss';
+import '../stylesheet/application.scss';
 import '@fortawesome/fontawesome-free/js/all';
 import { Application } from "stimulus"
 import { definitionsFromContext } from "stimulus/webpack-helpers"

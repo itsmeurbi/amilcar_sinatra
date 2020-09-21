@@ -1,7 +1,95 @@
 .landing-page
-  %section.section
+  %section.section.main-section
     .container
       .columns
         .column.is-12
-          %h1.is-size-1
-            Especialista en dolor
+          %h1.is-size-1.has-text-white
+            Dr. Amilcar Sanchez Sanchez
+          %h3.has-text-white
+            Médico especialista en dolor
+          %a.button.is-primary{ href: '#contacto-seccion'}
+            Contáctanos
+  %section.section#procesos
+    .container
+      %h2.is-size-2
+        Procesos
+      .columns
+        .column.is-4.has-text-centered.is-flex.is-aligned-center.has-direction-column
+          %figure.image.is-128x128
+            %img.is-rounded{ src: '/assets/images/back-pain.jpg'}
+          %p.is-bold
+            Lorem ipsum
+          %p.is-caption
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+        .column.is-4.has-text-centered.is-flex.is-aligned-center.has-direction-column
+          %figure.image.is-128x128
+            %img.is-rounded{ src: '/assets/images/back-pain.jpg'}
+          %p.is-bold
+            Lorem ipsum
+          %p.is-caption
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+        .column.is-4.has-text-centered.is-flex.is-aligned-center.has-direction-column
+          %figure.image.is-128x128
+            %img.is-rounded{ src: '/assets/images/back-pain.jpg'}
+          %p.is-bold
+            Lorem ipsum
+          %p.is-caption
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+
+  %section.section#acerca-de
+    .container
+      %h2.is-size-2
+        Acerca de...
+      %p
+        El Dr. Amílcar Sánchez y Sánchez es uno de los médicos algólogos más reconocidos de México. Se encuentra ubicado en Colima. Está altamente capacitado para tratar y atender los padecimientos que afectan la vida de sus pacientes.
+  %section.section#location-seccion
+    .container
+      %h2
+        Ubicación
+      %p
+        *Google Maps here*
+
+  %section.section#contacto-seccion
+    .container
+      %h2.is-size-2
+        Contáctanos
+      .columns
+        .column
+          %p
+            Dr. Amilcar Sanchez
+          %p
+            GABINO BARREDA, 269, CENTRO, COLIMA, COL, C.P. 28000
+          %p
+            312-313-5533
+          %p.is-bold
+            Horarios
+          %p
+            Lun.-Sab.	10:00 - 14:00
+          %p
+            Dom.	Cerrado
+        .column
+          %form
+            .field
+              %label.label{ for: 'prospectName' }
+                Nombre
+              .control
+                %input.input#prospectName{ name: 'name', placeholder: '¿Cuál es su nombre?', required: true, type: 'text', minlength: 5, maxlength: 30 }
+            .field
+              %label.label{ for: 'prospectEmail' }
+                Correo electrónico
+              .control
+                %input.input#prospectEmail{ name: 'email', placeholder: 'Su correo electrónico', required: true, type: 'email', minlength: 10, maxlength:40 }
+            .field
+              %label.label{ for: 'prospectPhone' }
+                Número telefónico
+              .control
+                %input.input#prospectPhone{ name: 'phone', placeholder: 'Su número telefónico', required: true, type: 'phone', minlength: 10, maxlength: 10 }
+            .field
+              %label.label{ for: 'prospectMessage' }
+                Mensaje
+              .cotrol
+                %textarea.textarea#prospectMessage{ name: 'message', placeholder: 'Escríbanos algo', required: true }
+            .field
+              %button.button.is-primary{ type: 'submit' }
+                Enviar
+

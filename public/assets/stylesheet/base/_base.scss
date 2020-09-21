@@ -33,17 +33,3 @@ h3 {
 .container {
   width: 100%;
 }
-
-.full-width-container {
-  @extend .container;
-  margin: 0;
-  max-width: 100%;
-  padding: 0 32px;
-  width: 100%;
-}
-
-@media (max-width: 769px) {
-  .full-width-container {
-    padding: 0 16px;
-  }
-}
