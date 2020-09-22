@@ -1,6 +1,10 @@
 @import './utils/variables';
 @import './vendors/bulma';
 @import './base/base';
+@import './base/typography';
 @import './components/navbar';
 @import './utils/background';
+@import './utils/alignment';
+@import './utils/images';
+@import './utils/spacing';
 @import './pages/landing_page';

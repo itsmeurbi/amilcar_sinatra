@@ -1,16 +1,17 @@
 %nav.navbar{ 'aria-label': 'main navigation', role: 'navigation', 'data-controller': 'navbar' }
-  .navbar-brand
-    %a.navbar-item{ href: '/'}
-      %img{ src: '/assets/images/logo.png' }
-    %a.navbar-burger.burger{ 'aria-expanded': 'false', 'aria-label': 'menu', 'data-action': 'navbar#toggleMenu', role: 'button', 'data-target': 'navbar.menuButton' }
-      %span{ 'aria-hidden': 'true' }
-      %span{ 'aria-hidden': 'true' }
-      %span{ 'aria-hidden': 'true' }
-  .navbar-menu{ 'data-target': 'navbar.menu' }
-    .navbar-end
-      %a.navbar-item
-        Servicios
-      %a.navbar-item
-        FAQ
-      %a.navbar-item
-        Contacto
+  .container.has-full-height
+    .navbar-brand
+      %a.navbar-item{ href: '/'}
+        %img{ src: '/assets/images/logo.png' }
+      %a.navbar-burger.burger{ 'aria-expanded': 'false', 'aria-label': 'menu', 'data-action': 'navbar#toggleMenu', role: 'button', 'data-target': 'navbar.menuButton' }
+        %span{ 'aria-hidden': 'true' }
+        %span{ 'aria-hidden': 'true' }
+        %span{ 'aria-hidden': 'true' }
+    .navbar-menu{ 'data-target': 'navbar.menu' }
+      .navbar-end
+        %a.navbar-item{ href: '#procesos' }
+          Servicios
+        %a.navbar-item{ href: '#acerca-de' }
+          Acerca de
+        %a.navbar-item{ href: '#contacto-seccion' }
+          Contacto
