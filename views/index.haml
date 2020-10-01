@@ -42,12 +42,11 @@
         Acerca de...
       %p
         El Dr. Amílcar Sánchez y Sánchez es uno de los médicos algólogos más reconocidos de México. Se encuentra ubicado en Colima. Está altamente capacitado para tratar y atender los padecimientos que afectan la vida de sus pacientes.
-  %section.section#location-seccion
+  %section.section#location-seccion{ 'data-controller': 'map' }
     .container
       %h2
         Ubicación
-      %p
-        *Google Maps here*
+      .map-container{ 'data-target': 'map.mapContainer' }
 
   %section.section#contacto-seccion
     .container
