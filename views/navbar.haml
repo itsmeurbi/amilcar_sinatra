@@ -9,9 +9,9 @@
         %span{ 'aria-hidden': 'true' }
     .navbar-menu{ 'data-target': 'navbar.menu' }
       .navbar-end
-        %a.navbar-item{ href: '#procesos' }
+        %a.navbar-item{ 'data-controller': 'scroll', 'data-action': 'scroll#moveToItem', 'data-target': 'scroll.trigger',  'data-target-id': 'procesos' }
           Servicios
-        %a.navbar-item{ href: '#acerca-de' }
+        %a.navbar-item{ 'data-controller': 'scroll', 'data-action': 'scroll#moveToItem', 'data-target': 'scroll.trigger',  'data-target-id': 'acerca-de' }
           Acerca de
-        %a.navbar-item{ href: '#contacto-seccion' }
+        %a.navbar-item{ 'data-controller': 'scroll', 'data-action': 'scroll#moveToItem', 'data-target': 'scroll.trigger',  'data-target-id': 'contacto-seccion' }
           Contacto
