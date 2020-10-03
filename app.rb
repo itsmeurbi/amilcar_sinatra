@@ -1,3 +1,4 @@
+require 'dotenv/load'
 require 'sinatra'
 require './helpers/application_helper'
 

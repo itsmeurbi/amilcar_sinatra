@@ -5,7 +5,7 @@
     %title Amilcar Sanchez
     %meta{ name: 'viewport', content: 'width=device-width,initial-scale=1' }
     %script{ src: './main.js' }
-  %body
+  %body{ 'data-google-key': ENV['GOOGLE_API_KEY'] }
   = partial :navbar
   = yield
   = partial :footer
