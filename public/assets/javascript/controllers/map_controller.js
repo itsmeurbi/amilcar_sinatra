@@ -1,7 +1,7 @@
 import { Controller } from 'stimulus';
 import { Loader } from 'google-maps';
 
-const localPosition = { lat: 19.247233, lng: 103.723681 };
+const localPosition = { lat: 19.247233, lng: -103.723681 };
 
 export default class extends Controller{
   static targets = ['mapContainer']
