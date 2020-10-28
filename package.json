@@ -1,7 +1,8 @@
 {
   "scripts": {
     "start": "webpack --config webpack.config.js",
-    "dev": "node_modules/.bin/webpack-dev-server"
+    "dev": "node_modules/.bin/webpack-dev-server",
+    "heroku-postbuild": "webpack -p"
   },
   "private": true,
   "name": "amilcarpage",
