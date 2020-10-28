@@ -7,32 +7,32 @@
             Dr. Amilcar Sanchez Sanchez
           %h3.has-text-white
             Médico especialista en dolor
-          %a.button.is-primary{ href: '#contacto-seccion'}
+          %a.button.is-primary{ 'data-controller': 'scroll', 'data-action': 'scroll#moveToItem', 'data-target': 'scroll.trigger',  'data-target-id': 'contacto-seccion' }
             Contáctanos
   %section.section#procesos
     .container
       %h2.is-size-2
         Procesos
-      .columns
+      .columns.is-multiline
         .column.is-4.has-text-centered.is-flex.is-aligned-center.has-direction-column
           %figure.image.is-128x128
-            %img.is-rounded{ src: '/assets/images/back-pain.jpg'}
+            %img.is-rounded{ src: '/assets/images/fractura-brazo.jpg'}
           %p.is-bold
-            Lorem ipsum
+            Fracturas
           %p.is-caption
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
         .column.is-4.has-text-centered.is-flex.is-aligned-center.has-direction-column
           %figure.image.is-128x128
-            %img.is-rounded{ src: '/assets/images/back-pain.jpg'}
+            %img.is-rounded{ src: '/assets/images/dolor-dorsal.jpg'}
           %p.is-bold
-            Lorem ipsum
+            Dolor dorsal
           %p.is-caption
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
         .column.is-4.has-text-centered.is-flex.is-aligned-center.has-direction-column
           %figure.image.is-128x128
-            %img.is-rounded{ src: '/assets/images/back-pain.jpg'}
+            %img.is-rounded{ src: '/assets/images/craneo-facial.jpg'}
           %p.is-bold
-            Lorem ipsum
+            Dolor craneofacial
           %p.is-caption
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
 
@@ -57,7 +57,7 @@
           %p
             Dr. Amilcar Sanchez
           %p
-            GABINO BARREDA, 269, CENTRO, COLIMA, COL, C.P. 28000
+            Gabino Barreda, 269, Centro, Colima, Col, C.P. 28000
           %p
             312-313-5533
           %p.is-bold
